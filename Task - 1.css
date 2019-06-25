@@ -11,6 +11,22 @@
     transform: translate(-50%, -50%);
 }
 
+.bgimg {
+    background-image: url('img9.jpg');
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    width: 100%;
+    height: auto;
+    padding-bottom: 220px;
+    padding-top: 220px;
+    background-size: cover;
+}
+
+.let {
+    margin: 0 auto;
+    color: #fff;
+}
+
 .sai{
     position: relative;
     text-align: center;
@@ -34,12 +50,15 @@
     width: 100%;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 25%;
-    input[type=text]:focus, input[type=number]:focus{
-        background-color: #ddd;
-        outline: none;
-    }
+    border-radius: 25px !important;
+    
 }
+
+input[type=text]:focus, input[type=number]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
 .but:hover{
     opacity: 1;
 }
@@ -73,7 +92,7 @@ input[type=text], input[type=number]{
 
 .rajuu{
     position: absolute;
-    top: 234%;
+    top: 220%;
     left: 16%;
     text-align: cleft;
     color: white;
